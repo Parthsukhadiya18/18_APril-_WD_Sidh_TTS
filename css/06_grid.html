@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: grid;
+            /* grid-template-columns: auto auto auto; */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: repeat(4, 1fr);
+            /* gap: 10px; */
+            gap: 10px 60px;
+            /* row-gap: 10px;
+            column-gap: 20px; */
+
+
+        }
+
+        .parth>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        .img1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .img1 {
+            grid-row-start: 0;
+            grid-row-end: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parth">
+        <div class="img1"><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
+
+        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
+        <div><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
+        <div class="img2"><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
+        <div><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
+        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
+        <div><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
+        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
+
+        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
+    </div>
+</body>
+
+</html>
