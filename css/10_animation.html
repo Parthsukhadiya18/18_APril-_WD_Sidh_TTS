@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div {
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation-name: dish; */
+            /* animation-duration: 2s; */
+            /* animation-timing-function: linear; */
+            /* animation-delay: 2s; */
+            /* animation-iteration-count: infinite; */
+            /* animation-direction: alternate; */
+            /* animation-fill-mode: both; */
+            animation: dish 2s linear infinite alternate;
+            background-color: red;
+
+            margin-left: auto;
+            margin-right: auto;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            border-radius: 20px;
+            width: 300px;
+            height: 100px;
+
+
+        }
+
+        @keyframes dish {
+            from {
+                width: 300px;
+                top: 10px;
+                background-color: rgb(226, 77, 9);
+
+            }
+
+            to {
+                width: 50px;
+                top: 100px;
+
+                background-color: rgb(114, 243, 9);
+            }
+        }
+
+        /* animation second  */
+        img {
+
+            animation: food 2s linear infinite alternate;
+            background-color: red;
+
+
+            width: 300px;
+            height: 100px;
+
+
+
+        }
+
+        @keyframes food {
+            from {
+                width: 300px;
+                top: 10px;
+                background-color: rgb(226, 77, 9);
+
+            }
+
+            to {
+                width: 50px;
+                top: 100px;
+
+                background-color: rgb(114, 243, 9);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <hr>
+    <img src="https://p.w3layouts.com/demos_new/template_demo/26-10-2021/salads-liberty-demo_Free/1194887043/web/assets/images/banner1.png"
+        alt="s1">
+</body>
+
+</html>
