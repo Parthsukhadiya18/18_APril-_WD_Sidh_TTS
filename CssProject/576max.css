@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  header .header .left {
+    width: 80%;
+  }
+  header .header .left h1 {
+    margin: 12px 20px;
+    font-size: 30px;
+  }
+  header .header .left h1 i {
+    font-size: 25px;
+  }
+  header .header .right {
+    display: none;
+  }
+
+  header .header .last {
+    width: 10%;
+    margin-top: 25px;
+    display: block;
+    text-align: end;
+  }
+  header .header .last i {
+    margin-top: 0px;
+  }
+}

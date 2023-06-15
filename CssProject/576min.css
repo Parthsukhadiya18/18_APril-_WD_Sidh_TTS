@@ -1,0 +1,28 @@
+@media (min-width: 576px) {
+  header .header .left {
+    width: 30%;
+  }
+  header .header .left h1 {
+    margin: 12px 20px;
+    font-size: 28px;
+  }
+  header .header .left h1 i {
+    font-size: 25px;
+  }
+  header .header .right {
+    width: 70%;
+    margin: 10px 10px 0px 0px;
+  }
+  header .header .right ul {
+    display: flex;
+    width: 100%;
+  }
+
+  header .header .right ul li {
+    margin: 10px;
+  }
+  header .header .right ul li a {
+    padding: 2px;
+    font-size: 15px;
+  }
+}
