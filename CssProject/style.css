@@ -49,3 +49,58 @@ header .header .right ul li a {
 header .header .right ul li a:hover {
   color: yellow;
 }
+
+/* main  */
+.main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.main .left {
+  width: 49%;
+  margin: 130px 0px 0px 0px;
+  padding-left: 30px;
+}
+.main .left h6 {
+  color: rgb(66, 134, 134);
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main .left h1 {
+  font-weight: 400;
+  font-size: 50px;
+  padding-top: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main .left a {
+  font-weight: 700;
+}
+
+.main .left p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+  opacity: 0.5;
+  margin: 10px 0px 0px 0px;
+}
+.main .left button {
+  margin: 40px 0px 0px 10px;
+  padding: 10px 20px;
+  color: rgb(64, 112, 112);
+  border: 2px solid rgb(64, 112, 112);
+  border-radius: 5px;
+  font-weight: 700;
+}
+.main .left button:hover {
+  background-color: rgb(64, 112, 112);
+  color: white;
+  transition: 1s all ease;
+}
+.main .right {
+  width: 51%;
+}
+.main .right img {
+  background-position: center;
+  height: 450px;
+  width: 100%;
+}

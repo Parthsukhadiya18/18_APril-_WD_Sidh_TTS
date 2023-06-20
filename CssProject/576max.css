@@ -22,4 +22,39 @@
   header .header .last i {
     margin-top: 0px;
   }
+  /* main  */
+  .main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .main .left {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding-left: 15px;
+  }
+
+  .main .left h1 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .main .left p {
+    font-size: 16px;
+  }
+
+  .main .left button {
+    margin: 10px 0px 10px 0px;
+    padding: 5px 10px;
+  }
+
+  .main .right {
+    width: 100%;
+    height: 150px;
+  }
+  .main .right img {
+    width: 100%;
+    height: 50%;
+    object-position: 50% 35%;
+    object-fit: none;
+  }
 }

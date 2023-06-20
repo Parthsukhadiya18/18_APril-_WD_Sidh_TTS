@@ -14,11 +14,32 @@
   }
 
   header .header .right {
-    width: 75%;
+    width: 70%;
   }
 
   header .header .right ul li a {
-    padding: 25px;
+    padding: 10px;
     font-size: 20px;
+  }
+  /* main  */
+
+  .main .left {
+    width: 49%;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .main .left h1 {
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+  .main .right {
+    width: 51%;
+  }
+  .main .right img {
+    background-position: center;
+    height: 100%;
+    width: 100%;
   }
 }
