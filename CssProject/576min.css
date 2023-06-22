@@ -57,4 +57,12 @@
     object-position: 50% 35%;
     object-fit: none;
   }
+   /* section2  */
+.section2{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  height: 300px;  
+
+}
+
 }

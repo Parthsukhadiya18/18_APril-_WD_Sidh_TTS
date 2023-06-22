@@ -1,79 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* body {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        } */
+    /* ul{
+    border: 1px solid red;
+      
 
-        .inline {
-            /* display: inline; */
-            border: 2px solid rgb(194, 32, 32);
-            /* display: block; */
-            /* display: inline-block; */
-        }
+    }
+    li{
+    border: 1px solid red;
+    display: inline;
 
+    } */
+    /* inline  */
+    .inline{
+        border: 1px solid red;
+    }
+    .inline li{
+        display: inline;
+        border: 1px solid green;
 
-        .inline p {
-            border: 2px solid black;
-            display: inline;
-        }
+    }
+    /* block  */
+    .block{
+        border: 1px solid red;
+    }
+    .block li{
+        display: block;
+        border: 1px solid green;
 
-        .block {
-            /* display: inline; */
-            border: 2px solid rgb(194, 32, 32);
-            /* display: block; */
-            /* display: inline-block; */
-        }
+    }
+     /*inline-block  */
+     .inline-block{
+        border: 1px solid black;
+    }
+    .inline-block li{
+        display: inline-block;
+        border: 1px solid rgb(209, 11, 44);
 
-
-        .block p {
-            border: 2px solid black;
-            display: block;
-        }
-
-        .inline_block {
-            /* display: inline; */
-            border: 2px solid rgb(194, 32, 32);
-            /* display: block; */
-            /* display: inline-block; */
-        }
-
-
-        .inline_block p {
-            border: 2px solid black;
-            display: inline-block;
-        }
+    }
     </style>
+  
 </head>
-
 <body>
-    <div class="inline">
-        <p>path</p>
-        <p>patram</p>
-        <p>udgdgdg</p>
-    </div>
-    <hr>
-    <div class="block">
-        <p>path</p>
-        <p>patram</p>
-        <p>udgdgdg</p>
-    </div>
-    <hr>
-    <div class="inline_block">
-        <p>path</p>
-        <p>patram</p>
-        <p>udgdgdg</p>
-    </div>
-
-
+      <ul class="inline">
+        <li>home</li>
+        <li>About</li>
+        <li>Servies</li>
+      </ul>
+      <ul class="block">
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+      </ul>
+      <ul class="inline-block">
+        <li>home</li>
+        <li>home</li>
+        <li>home</li>
+      </ul>
 </body>
-
 </html>
