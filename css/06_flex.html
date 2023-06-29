@@ -3,54 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        header {
+        .d1 {
             display: flex;
-            flex-wrap: wrap;
-        }
+            /* column  column-reverse row row-reverse*/
+            flex-direction: row;
+            flex-wrap: nowrap;
 
-        ul {
-            border: 1px solid black;
-        }
-
-        li {
-            list-style: none;
-            display: inline;
-        }
-
-        a {
-            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-        </ul>
-        <ul>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-        </ul>
-        <ul>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-            <li><a href="home">home</a></li>
-        </ul>
-        <ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, omnis.</p>
-        </ul>
-    </header>
+    <div class="d1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate iusto temporibus quasi tempora
+            nihil ex dignissimos molestias, aliquam similique.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate iusto temporibus quasi tempora
+            nihil ex dignissimos molestias, aliquam similique.</p>
+    </div>
+
+    <div class="d1">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate iusto temporibus quasi tempora
+                nihil ex dignissimos molestias, aliquam similique.</p>
+        </div>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate iusto temporibus quasi tempora
+                nihil ex dignissimos molestias, aliquam similique.</p>
+        </div>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate iusto temporibus quasi tempora
+                nihil ex dignissimos molestias, aliquam similique.</p>
+        </div>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate iusto temporibus quasi tempora
+                nihil ex dignissimos molestias, aliquam similique.</p>
+        </div>
+    </div>
+
 </body>
 
 </html>

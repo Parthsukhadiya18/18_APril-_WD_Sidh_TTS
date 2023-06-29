@@ -3,55 +3,61 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>grid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         div {
             display: grid;
-            /* grid-template-columns: auto auto auto; */
-            /* grid-template-columns: 1fr 1fr 1fr; */
-            grid-template-columns: repeat(4, 1fr);
-            /* gap: 10px; */
-            gap: 10px 60px;
+            grid-template-columns: repeat(5, 1fr);
             /* row-gap: 10px;
-            column-gap: 20px; */
-
+            column-gap: 10px; */
+            /* gap:10px; */
+            gap: 10px 20px;
 
         }
 
-        .parth>div {
-            background-color: rgba(255, 255, 255, 0.8);
-            text-align: center;
-            padding: 20px 0;
-            font-size: 30px;
+        .d1 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* gap:auto; */
+            /* justify-content: space-evenly; */
+
         }
 
-        .img1 {
-            grid-column-start: 1;
-            grid-column-end: 3;
-        }
-
-        .img1 {
-            grid-row-start: 0;
-            grid-row-end: 0;
-        }
     </style>
 </head>
 
 <body>
-    <div class="parth">
-        <div class="img1"><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
+   
 
-        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
-        <div><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
-        <div class="img2"><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
-        <div><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
-        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
-        <div><img src="img/download (1).jpg" alt="" height="200px" width="200px"></div>
-        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
+   
+  
+    <div class="d1">
+        <div class="img1">
+            <img src="img/download (1).jpg" alt="">
+        </div>
+        <div class="img2">
+            <img src="img/download (2).jpg" alt="">
+        </div>
+        <div>
+            <img src="img/download (2).jpg" alt="">
+        </div>
+        <div>
+            <img src="img/download (2).jpg" alt="">
+        </div>
+        <div>
+            <img src="img/download (2).jpg" alt="">
+        </div>
+        <div>
+            <img src="img/download (2).jpg" alt="">
+        </div>
+        <div>
+            <img src="img/download (2).jpg" alt="">
+        </div>
 
-        <div><img src="img/download (2).jpg" height="200px" width="200px" alt=""></div>
     </div>
 </body>
 
