@@ -1,113 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .div {
-            background-color: red;
+        div{
             height: 100px;
             width: 100px;
+            background-color: red;
         }
-
-        .div:hover {
+        .d:hover{
             background-color: green;
-            width: 200px;
-            height: 200px;
-
-
+            font-size: 20px;
         }
-
-        .div1 {
-            background-color: red;
-            height: 100px;
-            width: 100px;
+        .d1{
             transition: 2s all ease;
         }
-
-        .div1:hover {
-            background-color: green;
-            width: 200px;
-            height: 200px;
-
+        .d1:hover{
+            background-color: aqua;
+            width: 150px;
+            font-size: 20px;
         }
 
-        .div2 {
-            background-color: red;
-            height: 100px;
-            width: 100px;
+        .d2{
             transition: 2s all ease-in;
         }
-
-        .div2:hover {
-            background-color: rgb(223, 245, 23);
-            width: 200px;
-            height: 200px;
-
+        .d2:hover{
+            background-color: rgb(119, 0, 255);
+            width: 150px;
+            font-size: 20px;
         }
-
-        .div3 {
-            background-color: red;
-            height: 100px;
-            width: 100px;
+        .d3{
             transition: 2s all ease-out;
         }
-
-        .div3:hover {
-            background-color: rgb(38, 23, 245);
-            width: 200px;
-            height: 200px;
-
+        .d3:hover{
+            background-color: rgb(0, 255, 85);
+            width: 150px;
+            font-size: 20px;
         }
-
-        .div4 {
-            background-color: red;
-            height: 100px;
-            width: 100px;
-            transition: 2s all ease-in-out;
+        .d4{
+            transition: 2s all ease-out;
         }
-
-        .div4:hover {
-            background-color: rgb(248, 6, 208);
-            width: 200px;
-            height: 200px;
-
+        .d4:hover{
+            background-color: rgb(255, 0, 140);
+            width: 150px;
+            font-size: 20px;
         }
-
-        .div5 {
-            background-color: red;
-            height: 100px;
-            width: 100px;
+        .d5{
             transition: 2s all linear;
         }
-
-        .div5:hover {
-            background-color: rgb(248, 95, 6);
-            width: 200px;
-            height: 200px;
-
+        .d5:hover{
+            background-color: rgb(208, 255, 0);
+            width: 150px;
+            font-size: 20px;
         }
+      
+        .parth{
+            background-color: rgb(208, 255, 0);
+            transition: 2s all ease;
+        }
+       
+            .p1{
+            display:none;
+            font-size: 20px;
+            background-color: aqua;
+        }
+          
+            .parth:hover + .p1 {
+            display: block;
+           
+        }  
+        
+        
+
+
+
     </style>
 </head>
-
 <body>
-    <div class="div"></div>
-    <hr>
-    <div class="div1"></div>
-    <hr>
+   
+    <div class="d">Parth</div><hr>
+    <div class="d1">Parth</div><hr>
+    <div class="d2">Parth</div><hr>
+    <div class="d3">Parth</div><hr>
+    <div class="d4">ease in out</div><hr>
+    <div class="d5">PArth</div><hr>
+    
+    <div class="parth">PArth</div>
+    <div class="p1">Lorem, ipsum.</div>
+   
+    <hr><hr>
 
-    <div class="div2"></div>
-    <hr>
-    <div class="div3"></div>
-    <hr>
-    <div class="div4"></div>
-    <hr>
 
-    <div class="div5"></div>
+
+
+
+
+
+
+
 
 </body>
-
 </html>

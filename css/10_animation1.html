@@ -6,27 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation</title>
     <style>
-        /* animation second  */
-        img {
+        img{
+            height: 200px;
 
-            animation: food 4s linear infinite;
-
-
-
+            transition: 2s all ease;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            
+            animation-name: disc;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            /* animation-delay: 2s; */
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-fill-mode: forwards;
         }
-
-        @keyframes food {
-            from {
-                transform: rotate(0deg);
-
+        @keyframes disc{
+            from{
+             transform: rotate(0deg);
+             background-color: red;
+             border-radius: 50%;
             }
-
-            to {
+            to{
                 transform: rotate(360deg);
-
+                background-color: red;
+             border-radius: 50%;
             }
         }
+       
     </style>
+      
 </head>
 
 <body>

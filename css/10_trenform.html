@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .rot{
+        height: 50px;
+        width: 50px;
+        margin: 100px;
+        background-color: red;
+    }
+    .rot:hover{
+        /* transform: rotate(20deg); */
+        transform: rotateZ(350deg);
+        background-color: green;
+
+    }
+    .sky{
+        height: 50px;
+        width: 50px;
+        margin: 100px;
+        background-color: red;
+        transform: skew(50deg);
+
+    }
+    .sky:hover{
+        /* transform: rotate(20deg); */
+        transform: skew(-50deg);
+        background-color: green;
+
+    }
+    .scale{
+        height: 50px;
+        width: 50px;
+        margin: 100px;
+        background-color: red;
+    }
+    .scale:hover{
+        transform: scale(1.5);
+        /* transform: scaleY(1.2); */
+        /* transform: scaleX(1.2); */
+
+        background-color: green;
+
+    }
+    .tranlet{
+        height: 50px;
+        width: 50px;
+        margin: 100px;
+        background-color: red;
+    }
+    .tranlet:hover{
+        /* transform:translate(10px); */
+        transform:translateX(100px);
+        /* transform:translateY(100px); */
+
+
+
+        background-color: green;
+
+    }
+    .matrix{
+        height: 50px;
+        width: 50px;
+        margin: 100px;
+        background-color: red;
+    }
+    .matrix:hover{
+        /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+        transform:matrix(1, 2, 3, 1.5, 2, 5);
+
+
+
+        background-color: green;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="rot">rot</div>
+    <div class="sky">sky</div>
+    <div class="tranlet">tranlet</div>
+
+    <div class="scale">scale</div>
+    <div class="matrix">matric</div>
+
+
+
+</body>
+</html>

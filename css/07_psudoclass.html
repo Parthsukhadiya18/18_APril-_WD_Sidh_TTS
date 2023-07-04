@@ -1,62 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Psudoclass</title>
     <style>
-        li {
-            list-style: none;
-        }
-
-        a {
+        ul{
             text-decoration: none;
-            /* color: green; */
+            display: flex;
+            
         }
-
-        a:link {
-            color: pink !important;
+        li{
+            list-style-type: none;
         }
+       a:link{
+        color: red !important;
+       }
+       a:active{
+        color:yellow !important;
+       }
+       a:hover{
+        cursor: pointer;
+        background-color: pink;
+       }
+       div{
+        height: 100px;
+        width: 100%;
+        background-color: green;
+       }
+       div:hover{
+        background-color: red;
+        font-size: 30px;
 
-        a:visited {
-            color: black;
-        }
-
-        a:hover {
-            color: red;
-        }
-
-        a:active {
-            color: rgb(30, 0, 255);
-
-        }
-
-        img {
-            opacity: .1;
-        }
-
-        img:hover {
-            opacity: .5;
-
-        }
+       }
+       p::first-line{
+          color: red;
+       }
+       p::first-letter{
+          color: green;
+       }
+       h3::before{
+        content: url(https://png.pngtree.com/png-vector/20191121/ourmid/pngtree-blue-bird-vector-or-color-illustration-png-image_2013004.jpg);
+        
+       }
+       h3::after{
+        content: url(https://png.pngtree.com/png-vector/20191121/ourmid/pngtree-blue-bird-vector-or-color-illustration-png-image_2013004.jpg);
+        
+       }
     </style>
 </head>
-
 <body>
     <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">about</a></li>
-        <li><a href="">signup
-            </a></li>
-        <li><a href="">contact</a></li>
-        <li><a href="">sid</a></li>
-
-        <img src="img/janhvi-kapoor_83.jpg" alt="">
-
-
+        <li><a href="">Home</a></li>
+        <li><a href="">Home</a></li>
     </ul>
-</body>
+    <div>PArth</div>
 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum optio assumenda laboriosam illo quaerat sequi consequuntur animi eveniet odit, quos a libero reiciendis non quod nisi tempore voluptatum beatae quidem error! Explicabo, iusto corporis facere ipsam reprehenderit quis exercitationem dicta doloribus asperiores doloremque excepturi quas aliquid minima commodi, hic architecto!</p>
+
+    <h3>Parth</h3>
+</body>
 </html>
