@@ -1,187 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
-            border-radius: 50%;
-            position: relative;
-            margin-top: 100px;
-            margin-left: 100px;
-
-
+        div{
+           height: 400px;
+           width: 500px;
+           margin-top: 100px;
+           left: 100px;
+           position: relative;           
+        }
+        @keyframes square {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);  
+            }
         }
 
-        .d1 {
-            border: 3px dotted black;
-            height: 300px;
-            width: 300px;
+        .d1{
+            border: 1px solid red;
+
             position: absolute;
             top: 0px;
             left: 0px;
-            animation: circle1 5s linear infinite;
-
-
+            height: 300px;
+             width: 300px;
+             animation: square 4s linear  infinite forwards;
         }
-
-        .d2 {
-            border-left: 3px dotted black;
+        .d2{
+            border: 1px solid rgb(241, 11, 118);
+            animation: square 5s linear  infinite backwards;
             position: absolute;
-            height: 200px;
-            width: 200px;
             top: 50px;
             left: 50px;
-            animation: circle2 4s linear infinite reverse;
-
-
-
+            height: 200px;
+             width: 200px;
         }
-
-        .d3 {
-            border-right: 3px dashed black;
+        .d3{
+            border: 1px solid rgb(23, 8, 240);
+            animation: square 5s linear  infinite  alternate;
             position: absolute;
-            height: 100px;
-            width: 100px;
             top: 100px;
             left: 100px;
-            animation: circle3 3s linear infinite;
-
-
-        }
-
-        .d4 {
-            border-bottom: 3px dashed black;
-            position: absolute;
-            height: 50px;
-            width: 50px;
-            top: 120px;
-            left: 120px;
-            animation: circle4 2s linear infinite;
-
-
-        }
-
-        @keyframes circle1 {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            25% {
-                transform: rotate(90deg);
-
-            }
-
-
-            50% {
-                transform: rotate(180deg);
-            }
-
-            75% {
-                transform: rotate(270deg);
-            }
-
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes circle2 {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            25% {
-                transform: rotate(90deg);
-            }
-
-
-            50% {
-                transform: rotate(180deg);
-            }
-
-            75% {
-                transform: rotate(270deg);
-            }
-
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes circle3 {
-            0% {
-                transform: rotate(0deg);
-            }
-
-
-            25% {
-                transform: rotate(90deg);
-            }
-
-
-            50% {
-                transform: rotate(180deg);
-            }
-
-            75% {
-                transform: rotate(270deg);
-            }
-
-
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes circle4 {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            25% {
-                transform: rotate(90deg);
-
-            }
-
-
-            50% {
-                transform: rotate(180deg);
-            }
-
-            75% {
-                transform: rotate(270deg);
-            }
-
-
-            100% {
-                transform: rotate(360deg);
-            }
+            height: 100px;
+             width: 100px;
         }
     </style>
-
 </head>
-
 <body>
     <div>
-        <div class="d1">
-
-        </div>
-        <div class="d2">
-
-
-        </div>
-        <div class="d3"></div>
-        <div class="d4"></div>
-
+        <div class="d1">d1</div>
+        <div class="d2">d2</div>
+        <div class="d3">d3</div>
     </div>
-    </div>
-
 </body>
-
 </html>
