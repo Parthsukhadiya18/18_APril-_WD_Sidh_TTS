@@ -139,5 +139,65 @@
   text-align: justify;
 
 }
+/* section3  */
+.section3 .hot {
+  position: relative;
+  font-size: 23px;
+  color: rgb(57, 138, 138);
+  padding-left: 90px;
+}
+.section3  .hot::before
+ {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  width: 40px;
+  height: 3px;
+  content: '';
+  display: block;
+  background-color: red;
+}
+.section3 h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 30px;
+}
+.section3 .galary {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px 20px;
+  margin: 30px 30px 0px 30px;
+  
+}
+.section3 .galary .paris {
+  position: relative; 
+
+}
+.section3 .galary .paris img {
+border-radius: 10px;
+filter: brightness(65%) ;
+width: 300px !important;
+
+}
+.section3 .galary .paris .day {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(249, 249, 248, 1);
+ /* width: 300px; */
+
+}
+.section3 .galary .paris .day h4 {
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3 .galary .paris .day p {
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3 .galary .paris .day i {
+  color: yellow;
+  font-weight: 900;
+
+}
  
 }
