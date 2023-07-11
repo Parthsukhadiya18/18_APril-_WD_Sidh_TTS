@@ -144,14 +144,14 @@
   position: relative;
   font-size: 23px;
   color: rgb(57, 138, 138);
-  padding-left: 90px;
+  padding-left:10%;
 }
 .section3  .hot::before
  {
   position: absolute;
-  left: 30px;
+  left: 40px;
   top: 50%;
-  width: 40px;
+  width: 50px;
   height: 3px;
   content: '';
   display: block;
@@ -159,39 +159,42 @@
 }
 .section3 h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 .section3 .galary {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 20px 20px;
-  margin: 30px 30px 0px 30px;
+  gap: 20px 10px; 
+  width: 100%;
   
 }
 .section3 .galary .paris {
-  position: relative; 
+  position: relative;
+  margin: 0px auto;
+  padding: 20px 0px 0px 0px ;
+
 
 }
+
+
 .section3 .galary .paris img {
 border-radius: 10px;
 filter: brightness(65%) ;
-width: 300px !important;
-
+width: 280px;
 }
 .section3 .galary .paris .day {
   position: absolute;
   bottom: 10px;
   left: 10px;
   color: rgb(249, 249, 248, 1);
- /* width: 300px; */
-
 }
 .section3 .galary .paris .day h4 {
-   font-size: 20px;
+   font-size: 22px;
+   /* font-weight: 900; */
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .section3 .galary .paris .day p {
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .section3 .galary .paris .day i {
@@ -199,5 +202,6 @@ width: 300px !important;
   font-weight: 900;
 
 }
+
  
 }

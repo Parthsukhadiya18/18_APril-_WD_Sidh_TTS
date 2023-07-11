@@ -1,4 +1,7 @@
 /* header  */
+body{
+    background-color: black;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -27,6 +30,8 @@
    list-style: none;
    display: flex;
    margin-top: 10px;
+   justify-content: end;
+   
 }
 .right ul li a{
     text-decoration: none;

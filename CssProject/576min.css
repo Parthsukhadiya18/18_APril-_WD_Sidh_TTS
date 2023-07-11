@@ -65,4 +65,33 @@
 
 }
 
+/* section3  */
+
+.section3{
+  margin-top: 70%;
+}
+.section3 .hot {
+  position: relative;
+  
+  padding-left:20%;
+}
+.section3  .hot::before
+ {
+  position: absolute;
+  left: 55px;
+  top: 50%;
+
+}
+.section3 h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+}
+.section3 .galary {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px 0px; 
+  width: 100%; 
+}
+
+
 }

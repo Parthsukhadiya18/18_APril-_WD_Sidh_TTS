@@ -1,0 +1,11 @@
+@media (min-width:768px){
+    /* hedaer  */
+    .right ul{
+       list-style: none;
+       display: flex;
+       margin-top: 10px;
+       justify-content: end;
+       
+    }
+   
+}
