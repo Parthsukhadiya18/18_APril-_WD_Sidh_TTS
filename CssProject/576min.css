@@ -92,6 +92,49 @@
   gap: 20px 0px; 
   width: 100%; 
 }
+/* section4  */
+
+
+.section4 .video {
+  margin-top: 100px ;
+  display: flex;
+  justify-content: center;
+  margin: 0px 50px 0px 50px;
+
+  }
+  .section4 video{
+    width: 100%;
+  }
+  .section4 .find{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px;
+  }
+  .section4 .find .left{
+    width: 70%;
+    margin: 10px auto;
+  }
+  .section4 .find .right{
+    width: 70%;
+    margin: 10px auto;
+  }
+  .section4 .find .left .hot {
+    position: relative;
+    padding-left:20%;
+  }
+  .section4 .find .left .hot::before {
+    position: absolute;
+    left: 0px;
+  }
+  
+
+  .section4 .find .left h1{ 
+    font-size: 25px;
+    margin-left: 0px;
+
+  }
 
 
 }

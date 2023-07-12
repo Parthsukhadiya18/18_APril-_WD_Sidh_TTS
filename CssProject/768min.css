@@ -77,6 +77,48 @@
 .section3 .galary .paris img {
 width:350px;
 }
+/* section4  */
+
+
+.section4 .video {
+  margin-top: 100px ;
+  display: flex;
+  justify-content: center;
+  margin: 0px 50px 0px 50px;
+
+  }
+  .section4 video{
+    width: 100%;
+  }
+  .section4 .find{
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .section4 .find .left{
+    width: 57%;
+    margin: 20px 12px;
+  }
+  .section4 .find .right{
+    width: 49%;
+    margin: 20px 50px;
+  }
+
+  .section4 .find .left .hot::before {
+    position: absolute;
+    left: 36px;
+}
+  .section4 .find .left .hot {
+    position: relative;
+    padding-left:30%;
+  }
+
+  .section4 .find .left h1{ 
+    font-size: 25px;
+    padding-left: 36px;
+  }
+ 
 
 
 

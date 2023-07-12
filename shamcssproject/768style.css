@@ -7,5 +7,21 @@
        justify-content: end;
        
     }
+    /* section1  */
+   .section1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+    
+    }
+  
+    
+
+   
+   
+   
+    
+  
    
 }

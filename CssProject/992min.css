@@ -95,113 +95,157 @@
     width: 100%;
   }
   /* section2  */
-.section2{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  height: 300px;  
+  .section2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 300px;
+  }
+  .section2 .icon {
+    margin: 50px 50px 0px;
+  }
+  .section2 .icon:hover i {
+    color: rgb(95, 109, 62) !important;
+  }
+  .section2 .icon:hover .cru {
+    background-color: aqua;
+  }
+  .section2 .icon .cru {
+    background-color: rgb(204, 100, 100);
+    padding: 20px 20px;
+    border-radius: 50%;
+  }
+  .section2 .icon .cru i {
+    color: rgb(22, 22, 22);
+    font-size: 20px;
+  }
 
-}
-.section2 .icon{
-  margin: 50px 50px 0px;
-}
-.section2 .icon:hover i {
-  
-  color: rgb(95, 109, 62) !important;
-}
-.section2 .icon:hover .cru {
-  background-color: aqua;
-  
-}
-.section2 .icon .cru{
-  background-color:rgb(204, 100, 100);
-  padding: 20px 20px;
-  border-radius: 50%;
-}
-.section2 .icon .cru i{
-  color: rgb(22, 22, 22);
-  font-size: 20px;
-}
+  .section2 .icon:hover h2 {
+    color: red;
+  }
 
-.section2 .icon:hover h2{
-  color: red;
-}
+  .section2 .icon h2 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px 0px 0px;
+  }
 
-.section2 .icon h2{
-  font-weight: 600;
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 40px 0px 0px;
-}
+  .section2 .icon p {
+    font-size: 16px;
+    margin: 10px 0px 0px;
+    text-align: justify;
+  }
+  /* section3  */
+  .section3 {
+    margin-top: 0%;
+  }
+  .section3 .hot {
+    position: relative;
+    font-size: 23px;
+    color: rgb(57, 138, 138);
+    padding-left: 10%;
+  }
+  .section3 .hot::before {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    width: 50px;
+    height: 3px;
+    content: "";
+    display: block;
+    background-color: red;
+  }
+  .section3 h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+  }
+  .section3 .galary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 10px;
+    width: 100%;
+  }
+  .section3 .galary .paris {
+    position: relative;
+    margin: 0px auto;
+    padding: 20px 0px 0px 0px;
+  }
 
-.section2 .icon p{
-  font-size: 16px;
-  margin: 10px 0px 0px;
-  text-align: justify;
-
-}
-/* section3  */
-.section3 .hot {
-  position: relative;
-  font-size: 23px;
-  color: rgb(57, 138, 138);
-  padding-left:10%;
-}
-.section3  .hot::before
- {
-  position: absolute;
-  left: 40px;
-  top: 50%;
-  width: 50px;
-  height: 3px;
-  content: '';
-  display: block;
-  background-color: red;
-}
-.section3 h1{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 40px;
-}
-.section3 .galary {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 20px 10px; 
-  width: 100%;
-  
-}
-.section3 .galary .paris {
-  position: relative;
-  margin: 0px auto;
-  padding: 20px 0px 0px 0px ;
+  .section3 .galary .paris img {
+    border-radius: 10px;
+    filter: brightness(65%);
+    width: 280px;
+  }
+  .section3 .galary .paris .day {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(249, 249, 248, 1);
+  }
+  .section3 .galary .paris .day h4 {
+    font-size: 22px;
+    /* font-weight: 900; */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section3 .galary .paris .day p {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section3 .galary .paris .day i {
+    color: yellow;
+    font-weight: 900;
+  }
 
 
-}
-
-
-.section3 .galary .paris img {
-border-radius: 10px;
-filter: brightness(65%) ;
-width: 280px;
-}
-.section3 .galary .paris .day {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: rgb(249, 249, 248, 1);
-}
-.section3 .galary .paris .day h4 {
-   font-size: 22px;
-   /* font-weight: 900; */
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.section3 .galary .paris .day p {
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.section3 .galary .paris .day i {
-  color: yellow;
-  font-weight: 900;
-
-}
-
- 
+  /* section4  */
+.section4 .video {
+  margin-top: 100px ;
+  display: flex;
+  justify-content: center;
+  }
+  .section4 .find{
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .section4 .find .left{
+    width: 49%;
+    margin: 20px 7px;
+  }
+  .section4 .find .right{
+    width: 49%;
+    margin: 20px 50px;
+  }
+  .section4 .find .left .hot {
+    position: relative;
+    font-size: 23px;
+    color: rgb(57, 138, 138);
+    padding-left:25%;
+  }
+  .section4 .find .left  .hot::before
+   {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    width: 50px;
+    height: 3px;
+    content: '';
+    display: block;
+    background-color: red;
+  }
+  .section4 .find .left h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-size: 28px;
+  }
+  .section4 .find .right p{
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    ;
+    text-align: justify;
+    filter: opacity(50%);
+    font-weight: 500;
+    
+  }
 }
