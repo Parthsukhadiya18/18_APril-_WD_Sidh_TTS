@@ -118,7 +118,35 @@ width:350px;
     font-size: 25px;
     padding-left: 36px;
   }
- 
+   /* section5  */
+
+
+.section5 .form{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 50px;
+}
+
+
+.section5 .form input{
+  padding: 5px 0% 5px 0px;
+
+}
+.section5 .form select{
+  padding: 7px 67% 7px 0px;
+
+
+}
+.section5 .form .submit{
+  padding: 7px 70% 7px 0px;
+
+
+}
+
+.section5 .form .date{
+  padding: 5px 27% 5px 0px;
+
+}
 
 
 

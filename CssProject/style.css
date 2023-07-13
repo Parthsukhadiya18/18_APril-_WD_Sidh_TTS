@@ -263,6 +263,71 @@ justify-content: center;
   font-weight: 500;
   
 }
+/* section5  */
+
+.section5 .find .left .hot {
+  position: relative;
+  font-size: 23px;
+  color: rgb(57, 138, 138);
+  padding-left:14%;
+}
+.section5 .find .left  .hot::before
+ {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  width: 50px;
+  height: 3px;
+  content: '';
+  display: block;
+  background-color: red;
+}
+.section5 .find .left h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+  font-size: 28px;
+}
+.section5 .form{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 50px;
+}
+
+.section5 .form p{
+   font-size: 16px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight:500;
+}
+.section5 .form input{
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 0% 5px 0px;
+  border: none !important;
+  background-color: rgb(170, 222, 222);
+
+}
+.section5 .form select,.section5 .form button{
+  border-radius: 5px;
+  padding: 7px 57% 7px 0px;
+  border: none !important;
+  background-color: rgb(170, 222, 222);
+
+
+}
+.section5 .form .submit{
+  border-radius: 5px;
+  padding: 7px 57% 7px 0px;
+  border: none !important;
+  background-color:rgb(57, 138, 138);
+
+
+
+}
+.section5 .form .date{
+  padding: 5px 25% 5px 0px;
+  background-color: rgb(170, 222, 222);
+
+}
 
 
 

@@ -135,6 +135,78 @@
     margin-left: 0px;
 
   }
+  /* section5  */
+ 
+  .section5 .find .left{
+    margin-top: 50px;
+  }
+.section5 .find .left .hot {
+  position: relative;
+  font-size: 23px;
+  color: rgb(57, 138, 138);
+  padding-left:30%;
+}
+.section5 .find .left  .hot::before
+ {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  width: 50px;
+  height: 3px;
+  content: '';
+  display: block;
+  background-color: red;
+}
+.section5 .find .left h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+  font-size: 28px;
+  
+
+}
+.section5 .form{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: 50px 100px;
+  width: 100%;
+}
+
+.section5 .form .name{
+  margin-top: 10px;
+}
+
+.section5 .form p{
+   font-size: 16px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight:500;
+}
+.section5 .form input{
+  width: 67%;
+  padding: 5px 0% 5px 0px;
+
+}
+
+
+.section5 .form select{
+  width: 65%;
+  padding: 7px 67% 7px 0px;
+
+
+}
+
+.section5 .form .date{
+  width: 67%;
+  padding: 5px 27% 5px 0px;
+
+
+}
+.section5 .form .submit{
+  padding: 7px 0% 7px 0px;
+  width: 67%;
+
+
+}
+
 
 
 }
